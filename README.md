@@ -5,6 +5,7 @@ Este projeto é uma aplicação de exemplo que demonstra uma integração com um
 ## Índice
 
 -   [Instalação](#instalação)
+-   [Configuração](#configuração)
 -   [Execução](#execução)
 
 ## Instalação
@@ -37,6 +38,16 @@ Este projeto é uma aplicação de exemplo que demonstra uma integração com um
 
     ```bash
     npm install
+    ```
+
+## Configuração
+
+1. **Configure o Ambiente**
+
+    Copie o arquivo `.env.example` para `.env` e ajuste as configurações conforme necessário. Você pode precisar configurar detalhes do banco de dados e outras variáveis de ambiente.
+
+    ```bash
+    cp .env.example .env
     ```
 
 ## Execução
